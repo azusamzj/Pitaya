@@ -6,6 +6,7 @@
           content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="css/aui.css"/>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <style>
         /*
@@ -128,9 +129,9 @@
     <div id="wrapper">
         <div id="scroller">
             <ul>
-                <!--<li data-index=""  class="" tapmode="" onclick="openFrame(this)">2</li>
+                <li data-index=""  class="" tapmode="" onclick="openFrame(this)">2</li>
                 <li data-index=""  class="" tapmode="" onclick="openFrame(this)">1</li>
-                <li data-index=""  class="" tapmode="" onclick="openFrame(this)">3</li>-->
+                <li data-index=""  class="" tapmode="" onclick="openFrame(this)">3</li>
             </ul>
         </div>
     </div>
@@ -142,6 +143,28 @@
 <div class="cover hidden" tapmode="">
 
 </div>
+
+<footer class="aui-bar aui-bar-tab" id="footer">
+    <div class="aui-bar-tab-item aui-active" tapmode>
+        <i class="aui-iconfont aui-icon-home"></i>
+        <div class="aui-bar-tab-label">首页</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <i class="aui-iconfont aui-icon-star"></i>
+        <div class="aui-bar-tab-label">收藏</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <div class="aui-badge">99</div>
+        <i class="aui-iconfont aui-icon-cart"></i>
+        <div class="aui-bar-tab-label">购物车</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <div class="aui-dot"></div>
+        <i class="aui-iconfont aui-icon-my"></i>
+        <div class="aui-bar-tab-label">我的</div>
+    </div>
+</footer>
+
 <script type="text/javascript" src="script/api.js"></script>
 <script type="text/javascript" src="script/zepto.min.js"></script>
 <script type="text/javascript" src="script/iscroll.js"></script>
